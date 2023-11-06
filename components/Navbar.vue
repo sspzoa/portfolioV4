@@ -27,7 +27,6 @@ export default {
         <NuxtLink style="text-decoration: none; color: inherit;" to="#about"><p>About</p></NuxtLink>
         <NuxtLink style="text-decoration: none; color: inherit;" to="#skills"><p>Skills</p></NuxtLink>
         <NuxtLink style="text-decoration: none; color: inherit;" to="#projects"><p>Projects</p></NuxtLink>
-        <NuxtLink style="text-decoration: none; color: inherit;" to="#contact"><p>Contact</p></NuxtLink>
       </div>
       <div class="right">
         <button class="themeButton" @click="toggleDarkMode">
