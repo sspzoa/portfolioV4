@@ -8,7 +8,7 @@
 @font-face {
   font-family: 'SUIT Variable';
   font-weight: 100 900;
-  src: url('../../../Desktop/assets/fonts/SUIT-Variable.woff2') format('woff2-variations');
+  src: url('~/assets/fonts/SUIT-Variable.woff2') format('woff2-variations');
 }
 
 * {

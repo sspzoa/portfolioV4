@@ -18,6 +18,7 @@ export default {
     <div class="navbar">
       <div class="left">
         <NuxtLink style="text-decoration: none; color: inherit;" to="/" class="logo">
+          <img src="~/assets/images/intro/sspzoa.png" />
           <h2>Portfolio</h2>
         </NuxtLink>
       </div>
@@ -42,9 +43,9 @@ export default {
   position: fixed;
   z-index: 10;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(245, 245, 245, 0.5);
   backdrop-filter: blur(0.5rem);
-  padding: 15px;
+  padding: 1rem;
   border-bottom: rgba(0, 0, 0, 0.1) 1px solid;
   display: flex;
   justify-content: center;
@@ -74,19 +75,40 @@ export default {
   justify-content: flex-end;
 }
 
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo img {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 0.3rem;
+}
+
 .items {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 2rem;
+}
+
+.items p {
+  transition: transform 0.1s ease-in-out;
+}
+
+.items p:hover {
+  transform: scale(1.1);
 }
 
 .themeButton {
-  width: 120px;
+  width: 6.5rem;
   border: none;
   background-color: rgba(0, 0, 0, 0.1);
-  padding: 10px 20px;
-  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
   transition: background-color 0.3s;
 }
 

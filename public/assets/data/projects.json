@@ -1,0 +1,47 @@
+[
+  {
+    "name": "SNNECT",
+    "date": "23.10",
+    "teamSize": "3인 팀 프로젝트",
+    "description": "학생들의 인맥과 팀 구성을 돕는 플랫폼",
+    "githubLink": "Stare-in-dimigo/kcf-frontend",
+    "tags": ["2023 KCF Hackathon", "Next.js", "Flask", "MySQL", "Docker", "AWS"],
+    "image": "snnect.svg"
+  },
+  {
+    "name": "TasteByYou",
+    "date": "23.08",
+    "teamSize": "5인 팀 프로젝트",
+    "description": "사용자 친화적인 로봇 요리사 플랫폼",
+    "githubLink": "Stare-in-dimigo/tastebyyou",
+    "tags": ["Junction Asia 2023", "Flutter", "Firebase"],
+    "image": "tastebyyou.svg"
+  },
+  {
+    "name": "Glud",
+    "date": "23.05~23.09",
+    "teamSize": "4인 팀 프로젝트",
+    "description": "프롬프트 엔지니어링 없이 글쓰기를 돕는 AI",
+    "githubLink": "Stare-in-dimigo/glud",
+    "tags": ["STA+C 2023", "Flutter", "Firebase", "OpenAI API"],
+    "image": "glud.svg"
+  },
+  {
+    "name": "STARE",
+    "date": "23.04~",
+    "teamSize": "동아리 프로젝트",
+    "description": "정보보안 초심자를 위한 가이드 웹사이트",
+    "githubLink": "Stare-in-dimigo/stare-frontend",
+    "tags": ["STARE", "Next.js", "Typescript"],
+    "image": "stare.svg"
+  },
+  {
+    "name": "Monty",
+    "date": "22.10~22.11",
+    "teamSize": "개인 프로젝트",
+    "description": "몬티 홀 문제를 시뮬레이션하는 앱",
+    "githubLink": "sspzoa/Monty",
+    "tags": ["KDMHS", "Android", "Java"],
+    "image": "monty.png"
+  }
+]
