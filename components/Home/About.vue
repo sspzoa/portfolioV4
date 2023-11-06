@@ -4,7 +4,7 @@
   <div id="about" class="aboutContainer">
     <h1>About me</h1>
     <div class="content">
-      <img class="profileImg" src="/assets/images/about/profile.jpeg"/>
+      <img class="profileImg" src="/images/about/profile.jpeg"/>
       <div class="careerBox">
         <div id="dimipay" class="section">
           <div class="title">

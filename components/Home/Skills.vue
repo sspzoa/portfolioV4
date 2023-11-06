@@ -6,15 +6,15 @@
   <div id="skills" class="skillsContainer">
     <h1>My skills</h1>
     <div class="box">
-      <img src="/assets/images/skills/flutter.png" />
-      <img src="/assets/images/skills/reactnative.svg" />
-      <img src="/assets/images/skills/android.png" />
-      <img src="/assets/images/skills/nextjs.png" />
-      <img src="/assets/images/skills/nuxt.png" />
-      <img src="/assets/images/skills/flask.png" />
-      <img src="/assets/images/skills/pytorch.png" />
-      <img src="/assets/images/skills/docker.png" />
-      <img src="/assets/images/skills/aws.png" />
+      <img src="/images/skills/flutter.png" />
+      <img src="/images/skills/reactnative.svg" />
+      <img src="/images/skills/android.png" />
+      <img src="/images/skills/nextjs.png" />
+      <img src="/images/skills/nuxt.png" />
+      <img src="/images/skills/flask.png" />
+      <img src="/images/skills/pytorch.png" />
+      <img src="/images/skills/docker.png" />
+      <img src="/images/skills/aws.png" />
     </div>
   </div>
 </template>

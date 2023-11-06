@@ -18,7 +18,7 @@ export default {
     <div class="navbar">
       <div class="left">
         <NuxtLink style="text-decoration: none; color: inherit;" to="/" class="logo">
-          <img src="~/assets/images/intro/sspzoa.png" />
+          <img src="/images/intro/sspzoa.png" />
           <h2>Portfolio</h2>
         </NuxtLink>
       </div>

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import projectsData from 'public/assets/data/projects.json';
+import projectsData from '~/src/assets/data/projects.json';
 
 interface Project {
   name: string;
@@ -20,7 +20,7 @@ const projects = ref<Project[]>(projectsData);
     <h1>My projects</h1>
     <div class="projects">
       <div class="project" v-for="project in projects" :key="project.name">
-        <img :id="`${project.name.toLowerCase()}`" :src="`/assets/images/projects/${project.image}`"/>
+        <img :id="`${project.name.toLowerCase()}`" :src="`/images/projects/${project.image}`"/>
         <div class="textBox">
           <div class="title">
             <h1>{{ project.name }}</h1>

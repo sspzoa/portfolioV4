@@ -7,8 +7,8 @@
     <h1>Hello,<br />I&apos;m Seungpyo Suh</h1>
     <p>I&apos;m a software engineer,<br />proficient in using Android,<br />learning to make cross-platform apps.</p>
   </div>
-  <NuxtLink to="#about"><img class="arrow" src="/assets/images/intro/arrow.svg" /></NuxtLink>
-  <img class="logo" src="/assets/images/intro/sspzoa.png" />
+  <NuxtLink to="#about"><img class="arrow" src="/images/intro/arrow.svg" /></NuxtLink>
+  <img class="logo" src="/images/intro/sspzoa.png" />
 </div>
 </template>
 
