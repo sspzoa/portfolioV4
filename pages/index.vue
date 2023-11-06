@@ -3,7 +3,6 @@ import Intro from "~/components/Home/Intro.vue";
 import About from "~/components/Home/About.vue";
 import Skills from "~/components/Home/Skills.vue";
 import Projects from "~/components/Home/Projects.vue";
-import Contact from "~/components/Home/Contact.vue";
 </script>
 
 <template>
@@ -12,7 +11,6 @@ import Contact from "~/components/Home/Contact.vue";
     <About />
     <Skills />
     <Projects />
-    <Contact />
   </div>
 </template>
 
