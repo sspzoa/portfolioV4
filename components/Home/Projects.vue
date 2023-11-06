@@ -43,7 +43,6 @@ const projects = ref<Project[]>(projectsData);
 
 <style scoped>
 .projectsContainer {
-  height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
