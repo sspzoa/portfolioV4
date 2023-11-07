@@ -7,14 +7,14 @@
     <h1>My skills</h1>
     <div class="box">
       <img src="/images/skills/flutter.png" />
-      <img src="/images/skills/reactnative.svg" />
-      <img src="/images/skills/android.png" />
+      <img id="rn" src="/images/skills/reactnative.svg" />
+      <img src="/images/skills/jetpackcompose.webp" />
       <img src="/images/skills/nextjs.png" />
       <img src="/images/skills/nuxt.png" />
       <img src="/images/skills/flask.png" />
-      <img src="/images/skills/pytorch.png" />
+      <img src="/images/skills/springboot.png" />
       <img src="/images/skills/docker.png" />
-      <img src="/images/skills/aws.png" />
+      <img id="aws" src="/images/skills/aws.png" />
     </div>
   </div>
 </template>
@@ -43,7 +43,15 @@
 
 .box img {
   max-width: 15rem;
-  max-height: 5rem;
 }
+
+#rn {
+  max-width: 20rem;
+}
+
+#aws {
+  max-width: 10rem;
+}
+
 
 </style>
