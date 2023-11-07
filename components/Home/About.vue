@@ -66,7 +66,7 @@
 .careerBox {
   width: 100%;
   border-radius: 1rem;
-  background-color: white;
+  background-color: var(--box-color);
   display: flex;
   flex-direction: column;
   gap: 1.5rem;

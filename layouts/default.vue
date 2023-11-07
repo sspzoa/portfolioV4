@@ -15,6 +15,6 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: whitesmoke;
+  background-color: var(--background-color);
 }
 </style>

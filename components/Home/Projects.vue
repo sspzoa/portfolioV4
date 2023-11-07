@@ -62,7 +62,7 @@ const projects = ref<Project[]>(projectsData);
 
 .project {
   width: 22.666rem;
-  background-color: white;
+  background-color: var(--box-color);
   border-radius: 1rem;
 }
 
@@ -85,7 +85,7 @@ const projects = ref<Project[]>(projectsData);
 .project h2 {
   font-size: 1rem;
   line-height: 1.5rem;
-  color: darkblue;
+  color: var(--link-color);
 }
 
 .project h3 {
@@ -98,6 +98,7 @@ const projects = ref<Project[]>(projectsData);
 }
 
 .project img {
+  background-color: white;
   width: 100%;
   height: 10rem;
   object-fit: contain;
@@ -125,15 +126,14 @@ const projects = ref<Project[]>(projectsData);
 .tag {
   padding: 0.3rem 0.5rem;
   border-radius: 1rem;
-  background-color: lightgrey;
-  color: black;
+  background-color: var(--point-sub);
   font-size: 1rem;
   line-height: 1.2rem;
   font-weight: 500;
 }
 
 .tag:first-child {
-  background-color: black;
-  color: white;
+  background-color: var(--point-main);
+  color: var(--point-text);
 }
 </style>

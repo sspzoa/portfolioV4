@@ -19,7 +19,7 @@
   display: flex;
   width: 100%;
   padding: 2rem;
-  border-top: rgba(0, 0, 0, 0.1) 1px solid;
+  border-top: var(--transparent-point) 1px solid;
   flex-direction: column;
   gap: 1.5rem;
   justify-content: center;
@@ -27,7 +27,7 @@
 }
 
 .footerContainer h3 {
-  color: grey;
+  color: var(--point-sub2);
   text-align: center;
   margin: 0;
 }
@@ -40,8 +40,8 @@
 
 .icons i {
   font-size: 2.5rem;
-  color: grey;
-  transition: transform 0.1s ease-in-out;
+  color: var(--point-sub2);
+  transition: transform 0.1s ease-in-out, color 0.3s;
 }
 
 .icons i:hover {

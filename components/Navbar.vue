@@ -1,20 +1,37 @@
-<script>
-export default {
-  data() {
-    return {
-      isDarkMode: false
-    };
-  },
-  methods: {
-    toggleDarkMode() {
-      this.isDarkMode = !this.isDarkMode;
-    }
+<script setup lang="ts">
+import { ref, computed, onMounted } from 'vue';
+
+// Reactive state for dark mode
+const isDarkMode = ref(false);
+
+// Computed property for button text
+const buttonText = computed(() => isDarkMode.value ? 'Light Mode' : 'Dark Mode');
+
+// Method to toggle dark mode
+const toggleDarkMode = () => {
+  isDarkMode.value = !isDarkMode.value;
+  if (isDarkMode.value) {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    localStorage.setItem('darkMode', 'true');
+  } else {
+    document.documentElement.removeAttribute('data-theme');
+    localStorage.setItem('darkMode', 'false');
   }
 };
+
+// Check for saved user preference on mounted
+onMounted(() => {
+  const savedMode = localStorage.getItem('darkMode');
+  if (savedMode === 'true') {
+    isDarkMode.value = true;
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
+});
 </script>
 
+
 <template>
-  <div class="navbarContainer" :class="{ dark: isDarkMode }">
+  <div class="navbarContainer">
     <div class="navbar">
       <div class="left">
         <NuxtLink style="text-decoration: none; color: inherit;" to="/" class="logo">
@@ -30,7 +47,7 @@ export default {
       </div>
       <div class="right">
         <button class="themeButton" @click="toggleDarkMode">
-          {{ isDarkMode ? 'Light Mode' : 'Dark Mode' }}
+          {{ buttonText }}
         </button>
       </div>
     </div>
@@ -42,14 +59,13 @@ export default {
   position: fixed;
   z-index: 10;
   width: 100%;
-  background-color: rgba(245, 245, 245, 0.5);
+  background-color: var(--transparent-main);
   backdrop-filter: blur(0.5rem);
   padding: 1rem;
-  border-bottom: rgba(0, 0, 0, 0.1) 1px solid;
+  border-bottom: var(--transparent-point) 1px solid;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: background-color 0.3s;
 }
 
 .navbar {
@@ -95,7 +111,7 @@ export default {
 }
 
 .items p {
-  transition: transform 0.1s ease-in-out;
+  transition: transform 0.1s ease-in-out, color 0.3s;
 }
 
 .items p:hover {
@@ -105,18 +121,9 @@ export default {
 .themeButton {
   width: 6.5rem;
   border: none;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: var(--transparent-point);
+  color: var(--text-color);
   padding: 0.5rem 1rem;
   border-radius: 0.3rem;
-  transition: background-color 0.3s;
 }
-
-.dark {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-.dark .themeButton {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
 </style>
