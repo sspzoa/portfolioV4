@@ -1,13 +1,10 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue';
 
-// Reactive state for dark mode
 const isDarkMode = ref(false);
 
-// Computed property for button text
 const buttonText = computed(() => isDarkMode.value ? 'Light Mode' : 'Dark Mode');
 
-// Method to toggle dark mode
 const toggleDarkMode = () => {
   isDarkMode.value = !isDarkMode.value;
   if (isDarkMode.value) {
@@ -19,7 +16,6 @@ const toggleDarkMode = () => {
   }
 };
 
-// Check for saved user preference on mounted
 onMounted(() => {
   const savedMode = localStorage.getItem('darkMode');
   if (savedMode === 'true') {
@@ -28,7 +24,6 @@ onMounted(() => {
   }
 });
 </script>
-
 
 <template>
   <div class="navbarContainer">

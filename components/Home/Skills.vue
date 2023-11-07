@@ -6,15 +6,15 @@
   <div id="skills" class="skillsContainer">
     <h1>My skills</h1>
     <div class="box">
-      <img src="/images/skills/flutter.png" />
-      <img id="rn" src="/images/skills/reactnative.svg" />
-      <img src="/images/skills/jetpackcompose.webp" />
-      <img src="/images/skills/nextjs.png" />
-      <img src="/images/skills/nuxt.png" />
-      <img src="/images/skills/flask.png" />
-      <img src="/images/skills/springboot.png" />
-      <img src="/images/skills/docker.png" />
-      <img id="aws" src="/images/skills/aws.png" />
+      <img src="/images/skills/flutter.svg" />
+      <img src="/images/skills/android.svg" />
+      <img src="/images/skills/kotlin.svg" />
+      <img src="/images/skills/next.svg" />
+      <img src="/images/skills/nuxt.svg" />
+      <img src="/images/skills/spring.svg" />
+      <img src="/images/skills/hibernate.svg" />
+      <img src="/images/skills/jenkins.svg" />
+      <img src="/images/skills/docker.svg" />
     </div>
   </div>
 </template>
@@ -43,14 +43,6 @@
 
 .box img {
   max-width: 15rem;
-}
-
-#rn {
-  max-width: 20rem;
-}
-
-#aws {
-  max-width: 10rem;
 }
 
 
