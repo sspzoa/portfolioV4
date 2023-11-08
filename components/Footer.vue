@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <div class="footerContainer">
     <div class="icons">
-      <NuxtLink to="mailto:sspyorea@gmail.com"><i class="far fa-envelope"></i></NuxtLink>
+      <NuxtLink to="mailto:sspzoa@duck.com"><i class="far fa-envelope"></i></NuxtLink>
       <NuxtLink to="https://github.com/sspzoa"><i class="fab fa-github"></i></NuxtLink>
       <NuxtLink to="https://www.instagram.com/_s._.pyo/"><i class="fab fa-instagram"></i></NuxtLink>
       <NuxtLink to="#"><i class="fab fa-linkedin"></i></NuxtLink>
