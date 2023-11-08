@@ -12,6 +12,9 @@
       <img src="/images/skills/next.svg" />
       <img src="/images/skills/nuxt.svg" />
       <img src="/images/skills/nest.svg" />
+      <img src="/images/skills/mongodb.svg" />
+      <img src="/images/skills/docker.svg" />
+      <img src="/images/skills/aws.svg" />
     </div>
   </div>
 </template>
@@ -40,6 +43,7 @@
 
 .box img {
   max-width: 15rem;
+  max-height: 5rem;
 }
 
 
