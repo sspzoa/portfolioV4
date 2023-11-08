@@ -25,6 +25,7 @@ useHead({
   padding: 0;
   box-sizing: border-box;
   font-family: 'SUIT Variable', sans-serif;
+  user-select: none;
   transition: background-color 0.3s, color 0.3s;
 }
 
