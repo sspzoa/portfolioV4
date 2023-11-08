@@ -35,7 +35,7 @@
   grid-gap: 3rem;
   padding: 5rem 6rem;
   border-radius: 1rem;
-  background-color: white;
+  background-color: whitesmoke;
   justify-items: center;
   align-items: center;
   width: 100%;

@@ -27,7 +27,7 @@
 }
 
 .footerContainer h3 {
-  color: var(--point-sub2);
+  color: var(--point-sub);
   text-align: center;
   margin: 0;
 }
@@ -40,7 +40,7 @@
 
 .icons i {
   font-size: 2.5rem;
-  color: var(--point-sub2);
+  color: var(--point-sub);
   transition: transform 0.1s ease-in-out, color 0.3s;
 }
 

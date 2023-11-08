@@ -126,7 +126,7 @@ const projects = ref<Project[]>(projectsData);
 .tag {
   padding: 0.3rem 0.5rem;
   border-radius: 1rem;
-  background-color: var(--point-sub);
+  background-color: lightgrey;
   font-size: 1rem;
   line-height: 1.2rem;
   font-weight: 500;

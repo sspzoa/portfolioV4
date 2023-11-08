@@ -33,15 +33,14 @@ html {
 }
 
 :root {
-  --background-color: whitesmoke;
+  --background-color: white;
   --text-color: black;
   --point-text: white;
-  --box-color: white;
+  --box-color: whitesmoke;
   --link-color: darkblue;
   --point-main: black;
-  --point-sub: lightgrey;
-  --point-sub2: grey;
-  --transparent-main: rgba(245, 245, 245, 0.5);
+  --point-sub: grey;
+  --transparent-main: rgba(255, 255, 255, 0.5);
   --transparent-point: rgba(0, 0, 0, 0.1);
 }
 
@@ -52,8 +51,7 @@ html {
   --box-color: #333;
   --link-color: dodgerblue;
   --point-main: white;
-  --point-sub: grey;
-  --point-sub2: lightgrey;
+  --point-sub: lightgrey;
   --transparent-main: rgba(0, 0, 0, 0.5);
   --transparent-point: rgba(255, 255, 255, 0.2);
 }
