@@ -15,5 +15,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "date-fns": "^2.30.0"
+  }
 }

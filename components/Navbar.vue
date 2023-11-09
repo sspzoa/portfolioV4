@@ -45,9 +45,9 @@ onMounted(() => {
       </div>
       <div class="items" v-show="!showMenu">
         <NuxtLink style="text-decoration: none; color: inherit;" to="/"><p>Home</p></NuxtLink>
-        <NuxtLink style="text-decoration: none; color: inherit;" to="#about"><p>About</p></NuxtLink>
-        <NuxtLink style="text-decoration: none; color: inherit;" to="#skills"><p>Skills</p></NuxtLink>
-        <NuxtLink style="text-decoration: none; color: inherit;" to="#projects"><p>Projects</p></NuxtLink>
+        <NuxtLink style="text-decoration: none; color: inherit;" to="/#about"><p>About</p></NuxtLink>
+        <NuxtLink style="text-decoration: none; color: inherit;" to="/#skills"><p>Skills</p></NuxtLink>
+        <NuxtLink style="text-decoration: none; color: inherit;" to="/#projects"><p>Projects</p></NuxtLink>
       </div>
       <div class="right" v-show="!showMenu">
         <button class="themeButton" @click="toggleDarkMode">
@@ -56,9 +56,9 @@ onMounted(() => {
       </div>
       <div class="menu" :class="{ 'active': showMenu }">
         <NuxtLink style="text-decoration: none; color: inherit;" to="/" @click="toggleMenu"><h2>Home</h2></NuxtLink>
-        <NuxtLink style="text-decoration: none; color: inherit;" to="#about" @click="toggleMenu"><h2>About</h2></NuxtLink>
-        <NuxtLink style="text-decoration: none; color: inherit;" to="#skills" @click="toggleMenu"><h2>Skills</h2></NuxtLink>
-        <NuxtLink style="text-decoration: none; color: inherit;" to="#projects" @click="toggleMenu"><h2>Projects</h2></NuxtLink>
+        <NuxtLink style="text-decoration: none; color: inherit;" to="/#about" @click="toggleMenu"><h2>About</h2></NuxtLink>
+        <NuxtLink style="text-decoration: none; color: inherit;" to="/#skills" @click="toggleMenu"><h2>Skills</h2></NuxtLink>
+        <NuxtLink style="text-decoration: none; color: inherit;" to="/#projects" @click="toggleMenu"><h2>Projects</h2></NuxtLink>
         <button class="themeButton" @click="toggleDarkMode">
           {{ buttonText }}
         </button>
@@ -166,12 +166,12 @@ i {
   height: 100vh;
   background-color: var(--background-color);
   border-left: var(--transparent-point) 1px solid;
-  transition: right 0.3s;
+  transition: right 0.3s, background-color 0.3s;
   padding-top: 3rem;
 }
 
 .menu.active {
-  right: 0; /* 활성화될 때 오른쪽으로 이동 */
+  right: 0;
 }
 
 @media (max-width: 768px) {
