@@ -62,6 +62,8 @@
 .profileImg {
   max-height: 25rem;
   border-radius: 1rem;
+  object-fit: cover;
+  object-position: center;
 }
 
 .careerBox {
@@ -110,4 +112,39 @@
 .section li {
   height: 2.5rem;
 }
+
+@media (max-width: 768px) {
+  .aboutContainer {
+    padding: 5rem 1rem;
+    gap: 1rem;
+  }
+
+  .profileImg {
+    max-height: 12rem;
+    border-radius: 0.5rem;
+  }
+
+  .content {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .careerBox {
+    padding: 1rem;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+  }
+
+  .title {
+    gap: 0.5rem;
+  }
+  .section ul {
+    margin-left: 1rem;
+  }
+
+  .section li {
+    height: 1.6rem;
+  }
+}
+
 </style>

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 
+import Projects from "~/components/Home/Projects.vue";
 </script>
 
 <template>
@@ -46,5 +47,20 @@
   max-height: 5rem;
 }
 
-
+@media (max-width: 768px) {
+  .skillsContainer {
+    padding: 5rem 1rem;
+    gap: 1rem;
+  }
+  .box {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem;
+    grid-gap: 2rem;
+    border-radius: 0.5rem;
+  }
+  .box img {
+    max-width: 8rem;
+    max-height: 3rem;
+  }
+}
 </style>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import {ref} from 'vue';
 import projectsData from '~/src/assets/data/projects.json';
 
 interface Project {
@@ -53,15 +53,13 @@ const projects = ref<Project[]>(projectsData);
 
 .projects {
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
 }
 
 .project {
-  width: 22.666rem;
+  width: 100%;
   background-color: var(--box-color);
   border-radius: 1rem;
 }
@@ -98,7 +96,7 @@ const projects = ref<Project[]>(projectsData);
 }
 
 .project img {
-  background-color: white;
+  background-color: whitesmoke;
   width: 100%;
   height: 10rem;
   object-fit: contain;
@@ -135,5 +133,62 @@ const projects = ref<Project[]>(projectsData);
 .tag:first-child {
   background-color: var(--point-main);
   color: var(--point-text);
+}
+
+@media (max-width: 768px) {
+  .projectsContainer {
+    padding: 5rem 1rem;
+    gap: 1rem;
+  }
+
+  .title {
+    margin-bottom: 0.5rem;
+  }
+
+  .projects {
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .project {
+    width: 100%;
+  }
+
+  .textBox {
+    padding: 0.5rem;
+  }
+
+  .project h1 {
+    font-size: 0.8rem;
+  }
+
+  .project h2 {
+    font-size: 0.6rem;
+    line-height: 1.2rem;
+  }
+
+  .project h3 {
+    font-size: 0.6rem;
+    line-height: 1.2;
+  }
+
+  .project p {
+    font-size: 0.6rem;
+  }
+  .tags {
+    margin-top: 0.5rem;
+    gap: 0.3rem;
+  }
+  .tag {
+    padding: 0.1rem 0.3rem;
+    font-size: 0.6rem;
+    line-height: 1rem;
+  }
+  .project img {
+    height: 6rem;
+    padding: 2rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
 }
 </style>

@@ -29,7 +29,6 @@
 .footerContainer h3 {
   color: var(--point-sub);
   text-align: center;
-  margin: 0;
 }
 
 .icons {
@@ -46,5 +45,18 @@
 
 .icons i:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .footerContainer {
+    padding: 1.5rem;
+    gap: 0.5rem;
+  }
+  .icons {
+    gap: 0.8rem;
+  }
+  .icons i {
+    font-size: 1.5rem;
+  }
 }
 </style>
