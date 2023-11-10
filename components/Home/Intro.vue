@@ -8,7 +8,7 @@
       <p>I&apos;m a Kotlin developer,<br/>proficient in using Android,<br/>learning to make cross-platform apps.</p>
     </div>
     <NuxtLink to="#about"><img class="arrow" src="/images/intro/arrow.svg"/></NuxtLink>
-    <NuxtLink to="/dimigo"><img class="logo" src="/images/intro/sspzoa.png"/></NuxtLink>
+    <NuxtLink class="logo" to="/dimigo"><img src="/images/intro/sspzoa.png"/></NuxtLink>
   </div>
 </template>
 
@@ -32,7 +32,7 @@
   font-weight: 800;
 }
 
-.logo {
+.logo img{
   width: 15rem;
   border-radius: 2rem;
   box-shadow: 3rem -3rem 5rem rgba(85, 102, 119, 0.8);
@@ -73,9 +73,12 @@
   }
 
   .logo {
+    align-self: flex-end;
+  }
+
+  .logo img {
     width: 8rem;
     margin-right: 1rem;
-    align-self: flex-end;
     border-radius: 1rem;
     box-shadow: 2rem -2rem 5rem rgba(85, 102, 119, 0.8);
   }
