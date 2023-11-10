@@ -12,7 +12,7 @@ import Projects from "~/components/Home/Projects.vue";
       <img src="/images/skills/kotlin.svg" />
       <img src="/images/skills/next.svg" />
       <img src="/images/skills/nuxt.svg" />
-      <img src="/images/skills/nest.svg" />
+      <img src="/images/skills/spring.svg" />
       <img src="/images/skills/mongodb.svg" />
       <img src="/images/skills/docker.svg" />
       <img src="/images/skills/aws.svg" />

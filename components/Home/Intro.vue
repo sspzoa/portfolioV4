@@ -8,7 +8,7 @@
       <p>I&apos;m a frontend engineer,<br/>proficient in using Android,<br/>learning to make cross-platform apps.</p>
     </div>
     <NuxtLink to="#about"><img class="arrow" src="/images/intro/arrow.svg"/></NuxtLink>
-    <img class="logo" src="/images/intro/sspzoa.png"/>
+    <NuxtLink to="/dimigo"><img class="logo" src="/images/intro/sspzoa.png"/></NuxtLink>
   </div>
 </template>
 
