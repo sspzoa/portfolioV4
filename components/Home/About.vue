@@ -33,8 +33,8 @@
               <p>Junction Aisa 2023 본선 진출 (TasteByYou)</p>
             </li>
             <li>
-              <p>STAC 2023 결선 진출 (Glud)</p>
-            </li>
+              <p><strong>STAC 2023 장려상 👑 (Glud)</p>
+            </strong></li>
           </ul>
         </div>
       </div>
