@@ -13,9 +13,9 @@ import Projects from "~/components/Home/Projects.vue";
       <img src="/images/skills/next.svg" />
       <img src="/images/skills/nuxt.svg" />
       <img src="/images/skills/spring.svg" />
-      <img src="/images/skills/mongodb.svg" />
+      <img src="/images/skills/hibernate.svg" />
+      <img src="/images/skills/jenkins.svg" />
       <img src="/images/skills/docker.svg" />
-      <img src="/images/skills/aws.svg" />
     </div>
   </div>
 </template>
@@ -60,7 +60,6 @@ import Projects from "~/components/Home/Projects.vue";
   }
   .box img {
     max-width: 8rem;
-    max-height: 3rem;
   }
 }
 </style>
