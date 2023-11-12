@@ -6,9 +6,12 @@
   <div id="skills" class="skillsContainer">
     <h1>My skills</h1>
     <div class="box">
+      <img src="/images/skills/flutter.svg" />
       <img src="/images/skills/android.svg" />
       <img src="/images/skills/kotlin.svg" />
-      <img src="/images/skills/spring.svg" />
+      <img src="/images/skills/next.svg" />
+      <img src="/images/skills/nuxt.svg" />
+      <img src="/images/skills/firebase.svg" />
     </div>
   </div>
 </template>

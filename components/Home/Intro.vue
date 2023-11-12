@@ -5,7 +5,7 @@
   <div class="introContainer">
     <div class="textBox">
       <h1>Hello,<br/>I&apos;m Seungpyo Suh</h1>
-      <p>I&apos;m a Kotlin developer,<br/>proficient in using Android,<br/>learning to make cross-platform apps.</p>
+      <p>I&apos;m a Junior developer,<br/>proficient in using Android,<br/>learning to make cross-platform apps.</p>
     </div>
     <NuxtLink to="#about"><img class="arrow" src="/images/intro/arrow.svg"/></NuxtLink>
     <NuxtLink class="logo" to="/dimigo"><img src="/images/intro/sspzoa.png"/></NuxtLink>
