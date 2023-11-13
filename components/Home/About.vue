@@ -7,18 +7,6 @@
     <div class="content">
       <img class="profileImg" src="/images/about/profile.jpeg"/>
       <div class="careerBox">
-        <div id="dimipay" class="section">
-          <div class="title">
-            <h2>DIMIPAY</h2>
-            <hr/>
-            <h3>23.10~</h3>
-          </div>
-          <ul>
-            <li>
-              <p>배우ㄱing</p>
-            </li>
-          </ul>
-        </div>
         <div id="kdmhs" class="section">
           <div class="title">
             <h2>KDMHS</h2>
@@ -27,13 +15,22 @@
           </div>
           <ul>
             <li>
-              <p><strong>제 5회 한국코드페어 해커톤 금상 👑 (SNNECT)</strong></p>
+              <p><strong>STA+C 2023 장려상 👑 (23.11)</strong></p>
             </li>
             <li>
-              <p>Junction Aisa 2023 본선 진출 (TasteByYou)</p>
+              <p><strong>제 5회 한국코드페어 해커톤 금상 👑 (23.11)</strong></p>
             </li>
             <li>
-              <p><strong>STA+C 2023 장려상 👑 (Glud)</strong></p>
+              <p>한국디지털미디어고 무인 매점 결제 솔루션 디미페이 (23.10~)</p>
+            </li>
+            <li>
+              <p>Junction Aisa 2023 본선 진출 (23.08)</p>
+            </li>
+            <li>
+              <p>한국디지털미디어고 22기 학생홍보팀 (23.03~)</p>
+            </li>
+            <li>
+              <p>동아리 Stealth, STARE (23.03~)</p>
             </li>
           </ul>
         </div>
@@ -81,14 +78,6 @@
   flex-direction: row;
   align-items: center;
   gap: 1rem;
-}
-
-#dimipay hr {
-  width: 100%;
-  height: 0.25rem;
-  background-color: #2EA4AB;
-  border: 0.1rem solid #2EA4AB;
-  border-radius: 0.2rem;
 }
 
 #kdmhs hr {
