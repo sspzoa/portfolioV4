@@ -1,11 +1,10 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue';
 
-const lunchCycle = [1, 3, 4, 2, 5, 6]; // The initial lunch order cycle
-const dinnerCycle = [6, 5, 2, 4, 3, 1]; // The initial dinner order cycle
-const startDate = new Date('2023-11-20'); // The start date of the cycle
+const lunchCycle = [1, 3, 4, 2, 5, 6];
+const dinnerCycle = [6, 5, 2, 4, 3, 1];
+const startDate = new Date('2023-11-20');
 
-// Function to calculate the current order
 const calculateOrder = (start, cycle) => {
   const today = new Date();
   const dayDifference = Math.floor((today - start) / (1000 * 60 * 60 * 24));
@@ -15,11 +14,9 @@ const calculateOrder = (start, cycle) => {
   return [...cycle.slice(positionInCycle), ...cycle.slice(0, positionInCycle)];
 };
 
-// Reactive references for lunch and dinner orders
 const lunchOrder = ref([]);
 const dinnerOrder = ref([]);
 
-// Function to format the order into pairs separated by a comma
 const formatOrder = (order) => {
   return order.reduce((acc, curr, index, array) => {
     if (index % 2 === 0) {

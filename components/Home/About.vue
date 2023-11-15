@@ -15,7 +15,7 @@
           </div>
           <ul>
             <li>
-              <p><strong>STA+C 2023 장려상 👑 (23.11)</strong></p>
+              <p><strong>STA+C 2023 가작 👑 (23.11)</strong></p>
             </li>
             <li>
               <p><strong>제 5회 한국코드페어 해커톤 금상 👑 (23.11)</strong></p>
