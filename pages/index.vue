@@ -27,7 +27,7 @@ onMounted(() => {
         entry.target.classList.add('fade-in');
       }
     });
-  }, { threshold: 0.8 });
+  }, { threshold: 0.5 });
 
   elements.forEach(el => {
     if (el) observer.observe(el);
