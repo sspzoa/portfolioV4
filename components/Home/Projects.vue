@@ -48,7 +48,7 @@ const projects = ref<Project[]>(projectsData);
   align-items: center;
   flex-direction: column;
   gap: 2rem;
-  padding: 6rem 0;
+  padding: 8rem 0;
 }
 
 .projects {
@@ -138,7 +138,7 @@ const projects = ref<Project[]>(projectsData);
 @media (max-width: 768px) {
   .projectsContainer {
     padding: 5rem 1rem;
-    gap: 1rem;
+    gap: 2rem 1rem;
   }
 
   .title {

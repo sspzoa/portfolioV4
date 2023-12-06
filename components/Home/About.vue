@@ -46,7 +46,7 @@
   align-items: center;
   flex-direction: column;
   gap: 2rem;
-  padding: 6rem 0;
+  padding: 8rem 0;
 }
 
 .content {
@@ -105,7 +105,7 @@
 @media (max-width: 768px) {
   .aboutContainer {
     padding: 5rem 1rem;
-    gap: 1rem;
+    gap: 2rem 1rem;
   }
 
   .profileImg {

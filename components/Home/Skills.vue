@@ -23,7 +23,7 @@
   align-items: center;
   flex-direction: column;
   gap: 2rem;
-  padding: 6rem 0;
+  padding: 8rem 0;
 }
 
 .box {
@@ -46,7 +46,7 @@
 @media (max-width: 768px) {
   .skillsContainer {
     padding: 5rem 1rem;
-    gap: 1rem;
+    gap: 2rem 1rem;
   }
   .box {
     grid-template-columns: repeat(2, 1fr);
