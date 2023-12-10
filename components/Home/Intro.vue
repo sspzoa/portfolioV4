@@ -4,11 +4,11 @@
 <template>
   <div class="introContainer">
     <div class="textBox">
-      <h1>Hello,<br/>I&apos;m Seungpyo Suh</h1>
-      <p>I&apos;m a Junior developer,<br/>proficient in using Android,<br/>learning to make cross-platform apps.</p>
+      <h1>Hello,<br />I&apos;m Seungpyo Suh</h1>
+      <p>I&apos;m a Junior developer,<br />proficient in using Android,<br />learning to make cross-platform apps.</p>
     </div>
-    <NuxtLink to="#about"><img class="arrow" src="/images/intro/arrow.svg"/></NuxtLink>
-    <NuxtLink class="logo" to="/dimigo"><img src="/images/intro/sspzoa.png"/></NuxtLink>
+    <NuxtLink to="#about"><img class="arrow" src="/images/intro/arrow.svg" /></NuxtLink>
+    <NuxtLink class="logo" to="/dimigo"><img src="/images/intro/sspzoa.png" /></NuxtLink>
   </div>
 </template>
 
@@ -32,7 +32,7 @@
   font-weight: 800;
 }
 
-.logo img{
+.logo img {
   width: 15rem;
   border-radius: 2rem;
   box-shadow: 3rem -3rem 5rem rgba(85, 102, 119, 0.8);
@@ -60,7 +60,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
-    padding: 1rem;
+    padding: 1.5rem;
   }
 
   .textBox h1 {
@@ -77,7 +77,7 @@
   }
 
   .logo img {
-    width: 8rem;
+    width: 10rem;
     margin-right: 1rem;
     border-radius: 1rem;
     box-shadow: 2rem -2rem 5rem rgba(85, 102, 119, 0.8);

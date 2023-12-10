@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {ref} from 'vue';
+import { ref } from 'vue';
 import projectsData from '~/src/assets/data/projects.json';
 
 interface Project {
@@ -20,7 +20,7 @@ const projects = ref<Project[]>(projectsData);
     <h1>My projects</h1>
     <div class="projects">
       <div class="project" v-for="project in projects" :key="project.name">
-        <img :id="`${project.name.toLowerCase()}`" :src="`/images/projects/${project.image}`"/>
+        <img :id="`${project.name.toLowerCase()}`" :src="`/images/projects/${project.image}`" />
         <div class="textBox">
           <div class="title">
             <h1>{{ project.name }}</h1>
@@ -59,6 +59,8 @@ const projects = ref<Project[]>(projectsData);
 }
 
 .project {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   background-color: var(--box-color);
   border-radius: 1rem;
@@ -147,15 +149,12 @@ const projects = ref<Project[]>(projectsData);
 
   .projects {
     grid-gap: 0.5rem;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .project {
     width: 100%;
-  }
-
-  .textBox {
-    padding: 0.5rem;
+    flex-direction: row;
   }
 
   .project h1 {
@@ -175,20 +174,25 @@ const projects = ref<Project[]>(projectsData);
   .project p {
     font-size: 0.6rem;
   }
+
   .tags {
     margin-top: 0.5rem;
     gap: 0.3rem;
   }
+
   .tag {
     padding: 0.1rem 0.3rem;
     font-size: 0.6rem;
     line-height: 1rem;
   }
+
   .project img {
-    height: 6rem;
+    height: 9rem;
+    width: 9rem;
     padding: 2rem;
     border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0.5rem;
   }
 }
 </style>
