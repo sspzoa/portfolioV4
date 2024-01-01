@@ -8,10 +8,7 @@
     <div class="box">
       <img src="/images/skills/flutter.svg" />
       <img src="/images/skills/android.svg" />
-      <img src="/images/skills/kotlin.svg" />
       <img src="/images/skills/next.svg" />
-      <img src="/images/skills/nuxt.svg" />
-      <img src="/images/skills/firebase.svg" />
     </div>
   </div>
 </template>
@@ -48,12 +45,14 @@
     padding: 5rem 1rem;
     gap: 2rem 1rem;
   }
+
   .box {
     grid-template-columns: repeat(2, 1fr);
     padding: 2rem;
     grid-gap: 2rem;
     border-radius: 0.5rem;
   }
+
   .box img {
     max-width: 8rem;
   }

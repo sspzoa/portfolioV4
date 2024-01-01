@@ -5,23 +5,26 @@
   <div id="about" class="aboutContainer">
     <h1>About me</h1>
     <div class="content">
-      <img class="profileImg" src="/images/about/profile.jpeg"/>
+      <img class="profileImg" src="/images/about/profile.jpeg" />
       <div class="careerBox">
         <div id="kdmhs" class="section">
           <div class="title">
             <h2>KDMHS</h2>
-            <hr/>
+            <hr />
             <h3>23.03~</h3>
           </div>
           <ul>
             <li>
-              <p><strong>STA+C 2023 SK플래닛대표상 👑 (23.11)</strong></p>
+              <p>IT 소셜벤처 동아리 LUNA (23.12~)</p>
             </li>
             <li>
-              <p><strong>제 5회 한국코드페어 해커톤 과학기술정보통신부장관상 👑 (23.11)</strong></p>
+              <p><strong>STA+C 2023 가작 (SK플래닛대표상) 👑 (23.11)</strong></p>
             </li>
             <li>
-              <p>디미고 무인 매점 결제 솔루션 디미페이 (23.10~)</p>
+              <p><strong>제 5회 한국코드페어 해커톤 금상 (과학기술정보통신부장관상) 👑 (23.11)</strong></p>
+            </li>
+            <li>
+              <p>디미고 교내 무인매점 결제 솔루션 개발팀 디미페이 (23.10~)</p>
             </li>
             <li>
               <p>Junction Aisa 2023 본선 진출 (23.08)</p>
@@ -30,7 +33,7 @@
               <p>디미고 22기 학생홍보팀 (23.03~)</p>
             </li>
             <li>
-              <p>정보보안 동아리 Stealth, STARE (23.03~)</p>
+              <p>정보보안 동아리 Stealth, STARE (23.03~23.12)</p>
             </li>
           </ul>
         </div>
@@ -127,6 +130,7 @@
   .title {
     gap: 0.5rem;
   }
+
   .section ul {
     margin-left: 1rem;
   }
@@ -135,5 +139,4 @@
     height: 1.6rem;
   }
 }
-
 </style>
