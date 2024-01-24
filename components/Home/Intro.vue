@@ -77,8 +77,8 @@
   }
 
   .logo img {
-    width: 10rem;
-    margin-right: 1rem;
+    width: 12rem;
+    margin-right: 1.5rem;
     border-radius: 1rem;
     box-shadow: 2rem -2rem 5rem rgba(85, 102, 119, 0.8);
   }

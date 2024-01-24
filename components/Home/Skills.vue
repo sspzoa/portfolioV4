@@ -9,6 +9,9 @@
       <img src="/images/skills/flutter.svg" />
       <img src="/images/skills/android.svg" />
       <img src="/images/skills/next.svg" />
+      <img src="/images/skills/firebase.svg" />
+      <img src="/images/skills/node.svg" />
+      <img src="/images/skills/aws.svg" />
     </div>
   </div>
 </template>

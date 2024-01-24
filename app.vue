@@ -80,16 +80,16 @@ p {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   h2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   h3 {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 </style>
